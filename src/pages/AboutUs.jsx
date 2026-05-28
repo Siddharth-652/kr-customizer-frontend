@@ -1,9 +1,11 @@
-function AboutUs() {
+function About() {
   return (
-    <div>
-      <h1>About Us</h1>
-      <p>This is a simple about us page.</p>
+    <div className="min-h-screen px-4 py-20 flex items-center justify-center bg-gray-50">
+      <h1 className="text-3xl md:text-5xl font-bold text-gray-900">
+        About Us Page
+      </h1>
     </div>
-  );
+  )
 }
-export default AboutUs;
+
+export default About

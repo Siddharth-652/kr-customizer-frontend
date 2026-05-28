@@ -1,9 +1,11 @@
 function Blog() {
   return (
-    <div>
-      <h1>Blog</h1>
-      <p>This is a simple blog page.</p>
+    <div className="min-h-screen px-4 py-20 flex items-center justify-center bg-white">
+      <h1 className="text-3xl md:text-5xl font-bold text-gray-900">
+        Blog Page
+      </h1>
     </div>
-  );
-}   
-export default Blog;
+  )
+}
+
+export default Blog
