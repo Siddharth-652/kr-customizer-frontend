@@ -6,6 +6,7 @@ import CaseStudies from './pages/CaseStudies'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
+import Register from "./pages/Register"
 import Dashboard from './pages/Dashboard'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>

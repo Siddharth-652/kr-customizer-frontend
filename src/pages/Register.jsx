@@ -1,17 +1,29 @@
 import { Link } from "react-router-dom"
 
-function Login() {
+function Register() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">
-          Login
+          Register
         </h2>
+
         <p className="text-center text-gray-500 mb-8 font-medium">
-          Welcome back to KR Customizer
+          Create your KR Customizer account
         </p>
 
         <form className="space-y-5">
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">
+              Full Name
+            </label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              className="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:border-yellow-400"
+            />
+          </div>
+
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
               Email
@@ -29,20 +41,20 @@ function Login() {
             </label>
             <input
               type="password"
-              placeholder="Enter your password"
+              placeholder="Create password"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:border-yellow-400"
             />
           </div>
 
           <button className="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg hover:bg-yellow-500">
-            Login
+            Register
           </button>
         </form>
 
         <p className="text-center text-sm text-gray-600 mt-6 font-medium">
-          Don&apos;t have an account?{" "}
-          <Link to="/register" className="text-yellow-500 font-bold">
-            Register
+          Already have an account?{" "}
+          <Link to="/login" className="text-yellow-500 font-bold">
+            Login
           </Link>
         </p>
       </div>
@@ -50,4 +62,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Register

@@ -202,13 +202,13 @@ function ShowCase() {
               Start Selling Your Designs
             </Link>
           </div>
-          <div className="bg-yellow-400 rounded-xl p-8">
+          <div className="bg-white-400 rounded-xl p-8">
             <img src="https://picsum.photos/400/200?random=2" alt="businesses" className="rounded-lg w-full mb-6" />
             <h3 className="font-bold text-gray-900 text-lg mb-3">For Small & Medium Businesses</h3>
             <p className="text-gray-800 text-sm font-semibold mb-6">
               Small and medium businesses can grow without pressure. You don't have to store products or manage stock. Custom items are made only when someone orders. It keeps things simple and stress-free.
             </p>
-            <Link to="/login" className="bg-gray-900 text-white font-semibold px-5 py-2 rounded hover:bg-gray-700 text-sm inline-block">
+            <Link to="/login" className="bg-yellow-400 text-white font-semibold px-5 py-2 rounded hover:bg-yellow-600 text-sm inline-block">
               Start Your Store Today
             </Link>
           </div>
@@ -263,7 +263,6 @@ function ShowCase() {
 
       <TakeProductsSection />
 
-   
       <section className="px-16 py-16 bg-white">
         <div className="flex items-center gap-16">
           <div className="w-1/2">
@@ -280,6 +279,56 @@ function ShowCase() {
         </div>
       </section>
 
+ <section className="px-16 py-16 bg-white">
+  <div className="flex items-center gap-16">
+    <div className="w-1/2">
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Connect Your Store to Shopify, BigCommerce, WooCommerce, & More in Canada
+      </h2>
+
+      <p className="text-gray-600 text-sm font-semibold leading-relaxed">
+        KR Customizer makes running your store simple. You can connect it to Shopify, Etsy,
+        WooCommerce, BigCommerce and more. All orders sync automatically. No manual work.
+        No mistakes. Whether you sell in Toronto, Ontario, or nearby cities, your customers
+        get fast, reliable shipping. You can concentrate on design and sales while KR
+        Customizer keeps everything organized in one place.
+      </p>
+    </div>
+         </div>
+       </section>
+       <section className="px-16 py-16 bg-[#f7f3f7]">
+  <div className="flex items-center gap-16">
+    
+    <div className="w-1/2">
+      <img
+        src="https://picsum.photos/600/400?random=9"
+        alt="shipping"
+        className="rounded-2xl w-80"
+      />
+    </div>
+
+    <div className="w-1/2">
+      <h2 className="text-3xl font-bold text-gray-900 mb-4">
+        Start Selling Custom Products Across Canada
+      </h2>
+
+      <p className="text-gray-600 text-sm font-semibold leading-relaxed mb-6">
+        Want to start a Canadian print-on-demand business? No need to
+        worry about printing, shipping, fulfillment, and taxes. Grow your
+        brand with smart shipping and promotion. Focus on product creation.
+        We handle logistics. Selling online has never been easier.
+      </p>
+
+      <Link
+        to="/login"
+        className="bg-yellow-400 text-black font-bold px-8 py-3 rounded hover:bg-yellow-500 inline-block"
+      >
+        Get Started →
+      </Link>
+    </div>
+
+  </div>
+</section>
     </div>
   )
 }
