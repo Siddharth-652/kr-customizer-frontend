@@ -18,12 +18,18 @@ function Navbar() {
         </ul>
 
         {/* Buttons */}
-       <div className="hidden lg:flex items-center gap-3">
-          <Link to="/login" className="text-sm font-medium text-gray-700 hover:text-yellow-500">Login</Link>
-          <button className="bg-yellow-400 text-black text-sm font-semibold px-4 lg:px-5 py-2 rounded hover:bg-yellow-500">
-            GetDemo
-          </button>
-        </div>
+    <div className="flex items-center gap-3 ml-2 md:ml-4">
+  <Link
+  to="/login"
+  className="border-2 border-yellow-400 text-yellow-500 text-xs md:text-sm font-semibold px-4 py-2 rounded-lg hover:bg-yellow-400 hover:text-black transition"
+>
+  Login
+</Link>
+
+  <button className="hidden lg:block bg-yellow-400 text-black text-sm font-semibold px-4 lg:px-5 py-2 rounded hover:bg-yellow-500">
+    GetDemo
+  </button>
+</div>
       </div>
     </nav>
   )
