@@ -5,7 +5,7 @@ import AboutUs from './pages/AboutUs'
 import CaseStudies from './pages/CaseStudies'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
-import Login from './pages/Login'
+import Login from './pages/LoginPages'
 import Register from "./pages/Register"
 import Dashboard from './pages/Dashboard'
 
